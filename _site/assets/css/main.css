@@ -74,6 +74,11 @@ hr.small {
   }
 }
 
+.main-explain-area {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 1rem inherit;
+}
+
 .hideme {
   display: none;
 }
@@ -139,7 +144,6 @@ img {
   line-height: 1.5;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  font-size: 1.125rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -198,7 +202,6 @@ img {
 
 .navbar-toggler {
   font-size: 1rem;
-  margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
@@ -232,8 +235,7 @@ img {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
-
-  .navbar-expand-md .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
+  .navbar-expand-md .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
 }

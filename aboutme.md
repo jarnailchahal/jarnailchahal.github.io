@@ -1,16 +1,69 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello, my name is Jarnail Singh and I'm very passionate about data.  
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Work Experience
+----------
 
-What else do you need?
+* [Broadsign](https://www.broadsign.com), Montréal, Qc   
+**Client Services Analyst**, January-2018 to Now
 
-### my history
+* [Alphanumeric Systems](http://www.alphanumeric.com), Montréal, Qc    
+**IT Helpdesk Analyst**, September 18, 2017 to January 14, 2018
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Education
+---------
+
+2020-2021 (expected)
+:   **Diploma in Big Data**; Concordia University (Montreal)
+
+    *Big Data and Machine Learning basics*
+
+2015-2017
+:   **AEC in Computer Science Techniques**; Cégep de la Gaspésie et des Îles (Montreal)
+
+Skills
+---------
+* Python: Pandas, matplotlib, Plotly etc. [IMBD dataset analysis](https://jarnailsingh.github.io/df/)
+
+* [Side Project](https://github.com/Jarnail7/APItwitterPY)
+
+* Experience with MySQL in writing complex queries using joins, creating temp tables etc. to extract specific data. Ran Stored procedures to populate data warehouse for updating system reports.
+
+* Advanced Microsoft Excel Functions: VLOOKUPS, SUMIFS, pivot tables and Graphs etc.
+
+* Data Visualization Tools: Tableau and Power BI. Created visualizations using data extracted from the database.
+
+* Atlassian Tools: Worked with Jira and Confluence. Knowledge of Software Development Life Cycle (SDLC).
+
+* Ticketing System: Worked with Zendesk and BMC Remedy Ticketing Software.
+
+Certifications
+--------------
+
+*MCSA: BI Reporting*
+: Exam 778: Analyzing and Visualizing Data with Power BI ([See badge)](https://www.youracclaim.com/badges/894f19a1-42de-461e-a573-43aff8349e2d/linked_in_profile)| March 2019
+:	Exam 779: Analyzing and Visualizing Data with Microsoft Excel ([See badge](https://www.youracclaim.com/badges/618a3b84-8ba5-4793-8f1b-5b253a91ab08/linked_in_profile))| June 2019
+
+Email: Jarnailsinghchahal1@gmail.com
+
+### My Personality
+
+According to 16personalities.com, I'm a Logistician under Sentinels.
+
+---
+
+Here's our logo (hover to see the title text):
+
+Inline-style:
+
+![alt text](https://cdn.okccdn.com/php/load_okc_image.php/images/0x133/766x899/0/10313632307804966068.jpeg)
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
