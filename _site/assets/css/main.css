@@ -40,7 +40,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #000000;
 }
 blockquote {
   color: #808080;
@@ -86,12 +86,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #000000;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #000000;
 }
 img::selection {
   color: white;
@@ -124,7 +124,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #F5F5F5;
+  background-color: #1d73e8;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
@@ -177,7 +177,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-item:focus {
-  color: #0085A1;
+  color: #000000;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -197,7 +197,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: #404040;
+  color: #FFFFFF;
 }
 
 .navbar-toggler {
@@ -262,7 +262,7 @@ img {
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   white-space: normal;
   padding: 0.625rem;
-  background-color: #F5F5F5;
+  background-color: #1d73e8;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -442,7 +442,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #000000;
 }
 
 .post-preview .post-title {
@@ -513,7 +513,7 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #0085A1;
+  color: #000000;
   background-color: #EEE;
 }
 
@@ -750,8 +750,8 @@ footer .footer-custom-content {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #0085A1;
-  background-color: #0085A1;
+  border: 1px solid #000000;
+  background-color: #000000;
 }
 
 /* --- Tables --- */

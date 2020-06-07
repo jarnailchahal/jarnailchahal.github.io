@@ -2,9 +2,10 @@
 layout: page
 title: About me
 subtitle:
+image: /assets/img/mif.jpeg
 ---
 
-Hello, my name is Jarnail Singh and I'm very passionate about data.  
+Hello, my name is Jarnail Singh but you can call me Jay.    
 
 Work Experience
 ----------
@@ -53,17 +54,4 @@ Email: Jarnailsinghchahal1@gmail.com
 
 ### My Personality
 
-According to 16personalities.com, I'm a Logistician under Sentinels.
-
----
-
-Here's our logo (hover to see the title text):
-
-Inline-style:
-
-![alt text](https://cdn.okccdn.com/php/load_okc_image.php/images/0x133/766x899/0/10313632307804966068.jpeg)
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+According to [16personalities.com](https://www.16personalities.com/), I'm a Logistician under Sentinels.
