@@ -29,9 +29,9 @@ Education
 
 Skills
 ---------
-* Python: Pandas, matplotlib, Plotly etc. [IMBD dataset analysis](https://jarnailsingh.github.io/df/)
+* Python: Pandas, matplotlib, Plotly etc. [IMBD dataset analysis](https://jarnailchahal.github.io/home/2020-01-04-First/)
 
-* [Side Project](https://github.com/Jarnail7/APItwitterPY)
+* [Twitter API Side Project](https://github.com/Jarnail7/APItwitterPY)
 
 * Experience with MySQL in writing complex queries using joins, creating temp tables etc. to extract specific data. Ran Stored procedures to populate data warehouse for updating system reports.
 
@@ -47,11 +47,15 @@ Certifications
 --------------
 
 *MCSA: BI Reporting*
-: Exam 778: Analyzing and Visualizing Data with Power BI ([See badge)](https://www.youracclaim.com/badges/894f19a1-42de-461e-a573-43aff8349e2d/linked_in_profile)| March 2019
-:	Exam 779: Analyzing and Visualizing Data with Microsoft Excel ([See badge](https://www.youracclaim.com/badges/618a3b84-8ba5-4793-8f1b-5b253a91ab08/linked_in_profile))| June 2019
+
+| Exam 778: Analyzing and Visualizing Data with Power BI  |   <nobr> <a href="https://www.youracclaim.com/badges/894f19a1-42de-461e-a573-43aff8349e2d/linked_in_profile)" >See Badge</a>   </nobr> |  <nobr> March 2019  </nobr>
+|<nobr> Exam 779: Analyzing and Visualizing Data with Microsoft Excel </nobr>|   <nobr> <a href="https://www.youracclaim.com/badges/618a3b84-8ba5-4793-8f1b-5b253a91ab08/linked_in_profile)" >See Badge</a>  </nobr> |  <nobr> June 2019  </nobr>
+
 
 Email: Jarnailsinghchahal1@gmail.com
 
 ### My Personality
 
 According to [16personalities.com](https://www.16personalities.com/), I'm a Logistician under Sentinels.
+
+---
