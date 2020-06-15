@@ -89,7 +89,7 @@
       </item>
     
       <item>
-        <title>Graph post!</title>
+        <title>Python - Page Load Time Graph</title>
         <description>
           
           Importing all necessary packages import datetime import logging import os import sys import numpy as np import matplotlib.pyplot as plt import pandas as pd import plotly.graph_objects as go from azure import storage from azure.storage.table import TableService from plotly.offline import plot from plotly.subplots import make_subplots Token required to communicate with azure...
