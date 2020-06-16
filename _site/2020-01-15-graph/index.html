@@ -243,7 +243,7 @@ data_frame = pd.DataFrame(rows)
   <li><strong>Elapsed</strong>: Page load time in seconds</li>
 </ul>
 
-<p><img src="/assets/img/df.png" alt="DataFrame" /></p>
+<p><img src="https://raw.githubusercontent.com/jarnailchahal/home/master/assets/img/df.png" alt="DataFrame" /></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df_new =  pd.concat([data_frame["RowKey"],data_frame["elapsed"]],
                        names = ['Time', 'Delay'], axis = 1)
@@ -265,7 +265,7 @@ df_new = df_new.drop(columns = ["RowKey"])
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>df_new = df_new.resample("60s").mean()
 df_new = df_new.fillna(0.00)
 </code></pre></div></div>
-<p><img src="/assets/img/dfn.png" alt="drawing" width="500" /></p>
+<p><img src="https://raw.githubusercontent.com/jarnailchahal/home/master/assets/img/dfn.png" alt="drawing" width="500" /></p>
 
 <h2 id="generating-the-daily-graph">Generating the Daily graph:</h2>
 
@@ -280,7 +280,7 @@ for name, group in groups:
 </code></pre></div></div>
 <p><strong>Days DataFrame</strong></p>
 
-<p><img src="/assets/img/daysdf.png" alt="Days_df" /></p>
+<p><img src="https://raw.githubusercontent.com/jarnailchahal/home/master/assets/img/daysdf.png" alt="Days_df" /></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>columns = days.columns.values
 temp = list(range(0, len(days.columns.values)))
