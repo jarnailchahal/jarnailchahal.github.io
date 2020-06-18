@@ -66,7 +66,7 @@
   
 
    
-  <meta property="og:description" content="Importing all necessary packages import datetime import logging import os import sys import numpy as np import matplotlib.pyplot as plt import pandas as pd import plotly.graph_objects as go from azure import storage from azure.storage.table import TableService from plotly.offline import plot from plotly.subplots import make_subplots Token required to communicate with azure...">
+  <meta property="og:description" content="Problem Statement How often does a client using our software is experiencing slowdowns? We will use our existing webpage load time data stored in azure table to answer this. This data contains information about the http page load time (in seconds) when a user accesses our app via web. This...">
   
 
 
@@ -92,7 +92,7 @@
   
 
   
-  <meta name="twitter:description" content="Importing all necessary packages import datetime import logging import os import sys import numpy as np import matplotlib.pyplot as plt import pandas as pd import plotly.graph_objects as go from azure import storage from azure.storage.table import TableService from plotly.offline import plot from plotly.subplots import make_subplots Token required to communicate with azure...">
+  <meta name="twitter:description" content="Problem Statement How often does a client using our software is experiencing slowdowns? We will use our existing webpage load time data stored in azure table to answer this. This data contains information about the http page load time (in seconds) when a user accesses our app via web. This...">
   
 
   
@@ -181,7 +181,20 @@
       
 
       <article role="main" class="blog-post">
-        <p>Importing all necessary packages</p>
+        <h1 id="problem-statement">Problem Statement</h1>
+
+<h4 id="how-often-does-a-client-using-our-software-is-experiencing-slowdowns">How often does a client using our software is experiencing slowdowns?</h4>
+
+<p>We will use our existing webpage load time data stored in azure table to answer this.
+This data contains information about the http page load time (in seconds) when a user accesses our app via web.
+This will help us provide insights about any slowdown patterns experienced by clients over a period of time. Based on this data, we should be able to proactively act and bring downtime to a minimum.</p>
+
+<h2 id="data-source">Data Source</h2>
+
+<p>The data obtained from azure table storage will be received in a json format.
+Using python, we will convert it to a Pandas data frame and then use the open-source visualization library: Plotly to visualize it by creating an interactive web-based graph. Graph type: Stacked Subplots with Shared X-Axes where x-axis is each minute in a given day and y axis is http page load time (in seconds).</p>
+
+<p>Importing all necessary packages</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">import</span> <span class="nn">logging</span>
@@ -235,6 +248,9 @@ rows = get_data(
 data_frame = pd.DataFrame(rows)
 
 </code></pre></div></div>
+
+<p>Querying azure table store will provide us with the following data which will be stored in a data frame. The example of this dataframe can be seen in the below image.</p>
+
 <p><strong>Original Data Frame</strong></p>
 
 <p>We only need these two columns:</p>
@@ -259,6 +275,17 @@ df_new = df_new.set_index("time_from_rowkey")
 df_new = df_new.drop(columns = ["RowKey"])
 
 </code></pre></div></div>
+<h1 id="defining-successfailure-criteria">Defining success/failure criteria:</h1>
+
+<p>Failure: If the elapsed time value is equal to or greater than 60 seconds. It will be considered a slowdown and, as expected, the graph will display a spike.
+Success: If the reported elapsed time is less than 60 seconds.</p>
+
+<h1 id="challenge">Challenge</h1>
+
+<p><strong>X axis graph data requirement</strong> :  We need to have a graph with each minute of the day as x axis and webpage load time as y axis.
+But the provided data has more or less data points for a given day. For example, on a busy day it could have 10,000 rows or 1,000 on a slow day based on how much the client is using the system.
+We need each day to have the same number of data points, that is, 1440 (1 day = 1440 minutes). How do we achieve that?
+The answer is by using the <strong>resample</strong> python function. By using this function, we can group the data by each minute and then average the elapsed column time value for a given minute. So, even if we have 10,000 rows for a day, we always end up with 1440 rows after applying resample to the given Dataframe. [Code: <strong>example_df.resample(‘60s’).mean()</strong>].</p>
 
 <p><strong>Resampling the time series data based on minute</strong></p>
 
