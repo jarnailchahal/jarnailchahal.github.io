@@ -11,81 +11,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>New Title!</title>
+        <title>Exploring an idea</title>
         <description>
-          
-          You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...
-        </description>
-        <pubDate>Fri, 05 Jun 2020 08:06:55 -0700</pubDate>
-        <link>http://localhost:4000/2020-06-05-welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-06-05-welcome-to-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Sample blog post</title>
-        <description>
-          Each post also has a subtitle - 
-          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary...
-        </description>
-        <pubDate>Fri, 28 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2020-02-28-test-markdown/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-02-28-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Flake it till you make it</title>
-        <description>
-          Excerpt from Soulshaping by Jeff Brown - 
-          Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
+          Thought process in creating a location based tracing web app - 
+          What are we trying to do for the end-user(s) of the predictive system? What objectives are we serving? Creating a location-based application that tracks location using the data obtained from a small tacking attached to your kids, pets etc. Parents will be able to view their kids’ location in real...
         </description>
         <pubDate>Wed, 26 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2020-02-26-flake-it-till-you-make-it/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-02-26-flake-it-till-you-make-it/</guid>
-      </item>
-    
-      <item>
-        <title>To be</title>
-        <description>
-          ... or not to be? - 
-          To be, or not to be–that is the question: Whether ‘tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep– No more–and by a sleep to say we...
-        </description>
-        <pubDate>Thu, 13 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2020-02-13-hamlet-monologue/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-02-13-hamlet-monologue/</guid>
-      </item>
-    
-      <item>
-        <title>Dear diary</title>
-        <description>
-          
-          What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive! I’m thinking...
-        </description>
-        <pubDate>Mon, 27 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2020-01-27-dear-diary/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-01-27-dear-diary/</guid>
-      </item>
-    
-      <item>
-        <title>Soccer</title>
-        <description>
-          Best sport ever! - 
-          From Wikipedia: Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world’s most popular sport.[3][4][5][6] The game is played on a rectangular...
-        </description>
-        <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2020-01-19-soccer/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-01-19-soccer/</guid>
-      </item>
-    
-      <item>
-        <title>Pirates post!</title>
-        <description>
-          
-          This is my first pirates post, how exciting!
-
-        </description>
-        <pubDate>Wed, 15 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2020-01-15-pirates/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-01-15-pirates/</guid>
+        <link>http://localhost:4000/2020-02-26-exploring-an-idea/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-02-26-exploring-an-idea/</guid>
       </item>
     
       <item>

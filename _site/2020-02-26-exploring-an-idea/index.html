@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Soccer</title>
+  <title>Exploring an idea</title>
   
   
   <meta name="author" content="Jarnail">
   
   
   
-  <meta name="description" content="Best sport ever!">
+  <meta name="description" content="Thought process in creating a location based tracing web app">
   
 
   <link rel="alternate" type="application/rss+xml" title="Jarnail Singh - A virtual proof that I'm awesome" href="http://localhost:4000/feed.xml">
@@ -64,19 +64,19 @@
   
 
   
-  <meta property="og:title" content="Soccer">
+  <meta property="og:title" content="Exploring an idea">
   
 
    
-  <meta property="og:description" content="Best sport ever!">
+  <meta property="og:description" content="Thought process in creating a location based tracing web app">
   
 
 
   <meta property="og:type" content="website">
 
   
-  <meta property="og:url" content="http://localhost:4000/2020-01-19-soccer/">
-  <link rel="canonical" href="http://localhost:4000/2020-01-19-soccer/">
+  <meta property="og:url" content="http://localhost:4000/2020-02-26-exploring-an-idea/">
+  <link rel="canonical" href="http://localhost:4000/2020-02-26-exploring-an-idea/">
   
 
   
@@ -90,11 +90,11 @@
   <meta name="twitter:creator" content="@">
 
   
-  <meta name="twitter:title" content="Soccer">
+  <meta name="twitter:title" content="Exploring an idea">
   
 
   
-  <meta name="twitter:description" content="Best sport ever!">
+  <meta name="twitter:description" content="Thought process in creating a location based tracing web app">
   
 
   
@@ -150,23 +150,57 @@
 
 
 
+  <div id="header-big-imgs" data-num-img=1
+    
+    
+    
+      
+      data-img-src-1="/assets/img/path.jpg"
+    
+    
+    
+  ></div>
 
-<header class="header-section ">
+
+<header class="header-section has-img">
+
+<div class="big-img intro-header">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Exploring an idea</h1>
+      
+        
+      <h2 class="post-subheading">Thought process in creating a location based tracing web app</h2>
+      
+      
+      
+      
+          <span class="post-meta">Posted on February 26, 2020</span>
+          
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class='img-desc'></span>
+</div>
 
 <div class="intro-header no-img">
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>Soccer</h1>
+          <h1>Exploring an idea</h1>
       
         
-      <h2 class="post-subheading">Best sport ever!</h2>
+      <h2 class="post-subheading">Thought process in creating a location based tracing web app</h2>
       
       
       
       
-          <span class="post-meta">Posted on January 19, 2020</span>
+          <span class="post-meta">Posted on February 26, 2020</span>
           
       
         </div>
@@ -187,14 +221,42 @@
       
 
       <article role="main" class="blog-post">
-        <p>From Wikipedia:</p>
+        <h3 id="what-are-we-trying-to-do-for-the-end-users-of-the-predictive-system-what-objectives-are-we-serving">What are we trying to do for the end-user(s) of the predictive system? What objectives are we serving?</h3>
 
-<p>Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world’s most popular sport.[3][4][5][6] The game is played on a rectangular field with a goal at each end. The object of the game is to score by getting the ball into the opposing goal.</p>
+<p>Creating a location-based application that tracks location using the data obtained from a small tacking attached to your kids, pets etc. Parents will be able to view their kids’ location in real time using our app to protect them from (losing, kidnapping etc.)</p>
 
-<p>The goalkeepers are the only players allowed to touch the ball with their hands or arms while it is in play and then only in their penalty area. Outfield players mostly use their feet to strike or pass the ball, but may use their head or torso to strike the ball instead. The team that scores the most goals by the end of the match wins. If the score is level at the end of the game, either a draw is declared or the game goes into extra time and/or a penalty shootout depending on the format of the competition. The Laws of the Game were originally codified in England by The Football Association in 1863. Association football is governed internationally by the International Federation of Association Football (FIFA; French: Fédération Internationale de Football Association) which organises a World Cup every four years.[7]</p>
+<p>Use machine learning to recognize daily location patterns of the kids. Constrict an area on the map (called a <em>safe zone</em>) and when the child goes outside that, send an alert to the parent.</p>
+
+<p>Promising research: <a href="https://www.researchgate.net/publication/225104305_An_Adaptive_Machine_Learning_Algorithm_for_Location_Prediction">ML Algorithm for Location Prediction</a></p>
+
+<p><strong>Product:</strong>
+Buying GPS watches in bulk - <a href="https://www.alibaba.com/product-detail/Q50-Gsm-gps-watch-for-kids_60403041745.html?spm=a2700.icbuShop.41413.30.20f4455boSVmwQ&amp;fullFirstScreen=true&amp;bypass=true">Alibaba Kids GPS watch</a></p>
+
+<p><strong>Application:</strong>
+Making our software application that communicates with the watch GPS, tracks location and generates graphs for the end user.</p>
+
+<h3 id="which-raw-data-sources-can-we-use-">Which raw data sources can we use ?</h3>
+
+<p>Internal data source: Location data generated by the GPS Watch.</p>
+
+<ul>
+  <li>Use google location API  to display location in maps page of our application. Location data (Lats/Longs info) comes from the GPS tracker inside the watch.</li>
+  <li>Use <a href="https://plotly.com/">Plotly</a> to create various graphs from the above data.</li>
+</ul>
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#Business Idea">Business Idea</a>
+          
+            <a href="/tags#ML">ML</a>
+          
+          
+        </div>
       
 
       
@@ -207,7 +269,7 @@
   <span class="sr-only">Share: </span>
 
   
-    <a href="https://twitter.com/intent/tweet?text=Soccer&url=http%3A%2F%2Flocalhost%3A4000%2F2020-01-19-soccer%2F"
+    <a href="https://twitter.com/intent/tweet?text=Exploring+an+idea&url=http%3A%2F%2Flocalhost%3A4000%2F2020-02-26-exploring-an-idea%2F"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -215,7 +277,7 @@
   
 
   
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-01-19-soccer%2F"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-02-26-exploring-an-idea%2F"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -223,7 +285,7 @@
   
 
   
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-01-19-soccer%2F"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-02-26-exploring-an-idea%2F"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -239,13 +301,9 @@
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/2020-01-15-pirates/" data-toggle="tooltip" data-placement="top" title="Pirates post!">&larr; Previous Post</a>
+          <a class="page-link" href="/2020-01-15-graph/" data-toggle="tooltip" data-placement="top" title="Python - Page Load Time Graph">&larr; Previous Post</a>
         </li>
         
-        
-        <li class="page-item next">
-          <a class="page-link" href="/2020-01-27-dear-diary/" data-toggle="tooltip" data-placement="top" title="Dear diary">Next Post &rarr;</a>
-        </li>
         
       </ul>
               
