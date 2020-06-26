@@ -29,7 +29,7 @@ Education
 
 Skills
 ---------
-* Python: Pandas, matplotlib, Plotly etc. [IMBD dataset analysis](https://jarnailchahal.github.io/home/2020-01-04-First/)
+* Python: Pandas, matplotlib, Plotly etc. [IMBD dataset analysis](https://jarnailchahal.github.io/home/2020-01-04-IMDB/)
 
 * [Twitter API Side Project](https://github.com/Jarnail7/APItwitterPY)
 
