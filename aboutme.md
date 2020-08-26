@@ -5,8 +5,6 @@ subtitle:
 image: /assets/img/mif.jpeg
 ---
 
-Hello, my name is Jarnail Singh but you can call me Jay.    
-
 Work Experience
 ----------
 
