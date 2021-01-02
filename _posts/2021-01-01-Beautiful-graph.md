@@ -1,24 +1,24 @@
 ---
 layout: post
 title: Beautiful Graph
-subtitle: Difference between good and bad graph
-cover-img: /assets/img/path.jpg
-tags: [Graph]
+subtitle: Difference between a good and bad graph
+cover-img: /assets/img/GBgraph.jpg
+tags: [Data Analysis]
 ---
 
 ### Example: Lets say we want to convince upper management of a company to hire new Helpdesk employee(s).
 
 The below graph shows total number of help-desk tickets received and processed by the company from Jan to Dec.
 
-![BadGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/_site/assets/img/badgraph.png)
+![BadGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/_site/assets/img/badgraph.png) *image_caption*
 
-Although this graph has the necessary data, it lacks  very important points to clarify our objective. The reader does not understand what the graph is trying to communicate. A good graph is one that lets the reader know in a single glance exactly what is the being communicated.
+Although this graph has the necessary data, it lacks  very important points to clarify our objective. The reader does not understand what the graph is trying to communicate. A good graph is one that lets its readers know in a single glance what exactly is the being communicated.
 
 After organizing and modifying parts of the above graph, we should get something close to the below example. The below graph uses the same data as the one above.
 
 ![GoodGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/_site/assets/img/goodgraph.png)
 
-Here, it is much more clear that we want the reader(s) to approve hiring of 2 new help-desk analysts as the gap between Received & Processed tickets is gradually increasing since May.
+Here, it is much more clear that we want the reader(s) to approve hiring of 2 new help-desk analysts [Title] as the gap between Received & Processed tickets is gradually increasing since May [Added Annotation].
 
 
 
