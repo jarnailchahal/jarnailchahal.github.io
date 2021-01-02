@@ -6,7 +6,7 @@ cover-img: /assets/img/GBgraph.jpg
 tags: [Data Analysis]
 ---
 
-### Example: Lets say we want to convince upper management of a company to hire new Helpdesk employee(s).
+### Lets say we want to convince upper management of an example company to hire new Helpdesk employee(s).
 
 The below graph shows total number of help-desk tickets received and processed by the company from Jan to Dec.
 
