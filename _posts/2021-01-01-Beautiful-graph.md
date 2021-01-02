@@ -2,7 +2,7 @@
 layout: post
 title: How do you improve graph interpretation?
 subtitle: Difference between a good and bad graph.
-cover-img: /assets/img/GBgraph.png
+cover-img: /assets/img/GBgraph.jpg
 tags: [Data Analysis]
 ---
 
