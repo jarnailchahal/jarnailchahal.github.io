@@ -19,3 +19,11 @@ After organizing and modifying parts of the above graph, we should get something
 ![GoodGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/_site/assets/img/goodgraph.png)*Good Graph*
 
 Here, it is much more clearer that we want the reader(s) to approve hiring of 2 new help-desk analysts [Title] as the gap between Received & Processed tickets is gradually increasing since May [Added Annotation].
+
+A good graph should:
+
+*	TELL A VISUAL STORY
+*	BE EASY TO UNDERSTAND
+* BE TAILORED TO YOUR TARGET AUDIENCE
+* BE USER-FRIENDLY
+* BE HONEST
