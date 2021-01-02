@@ -4,7 +4,7 @@ title: Resources
 subtitle: Some great online materials, notes and resources!
 ---
 
-These are  some of my favourite resources I refer to while learning stuff.
+These are  some of my favourite learning resources.
 
 ###  Python
 
