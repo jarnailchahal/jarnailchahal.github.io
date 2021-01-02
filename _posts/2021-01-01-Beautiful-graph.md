@@ -20,7 +20,7 @@ After organizing and modifying parts of the above graph, we should get something
 
 Here, it is much more clearer that we want the reader(s) to approve hiring of 2 new help-desk analysts [Title] as the gap between Received & Processed tickets is gradually increasing since May [Added Annotation].
 
-A good graph should:
+#### In conclusion, a good graph should:
 
 *	TELL A VISUAL STORY
 *	BE EASY TO UNDERSTAND
