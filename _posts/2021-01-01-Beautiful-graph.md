@@ -6,12 +6,23 @@ cover-img: /assets/img/path.jpg
 tags: [Graph]
 ---
 
-### What are we trying to do for the end-user(s) of the predictive system? What objectives are we serving?
+### Example: Lets say we want to convince upper management of a company to hire new Helpdesk employee(s).
+
+The below graph shows total number of help-desk tickets received and processed by the company from Jan to Dec.
+
+![BadGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/assets/img/daysdf.png)
+
+Although this graph has the necessary data, it lacks  very important points to clarify our objective. The reader does not understand what the graph is trying to communicate. A good graph is one that lets the reader know in a single glance exactly what is the being communicated.
+
+After organizing and modifying parts of the above graph, we should get something close to the below example. The below graph uses the same data as the one above.
+
+![GoodGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/assets/img/daysdf.png)
+
+Here, it is much more clear that we want the reader(s) to approve hiring of 2 new help-desk analysts as the gap between Received & Processed tickets is gradually increasing since May.
 
 
-Creating a location-based application that tracks location using the data obtained from a small tacking attached to your kids, pets etc. Parents will be able to view their kids’ location in real time using our app to protect them from (losing, kidnapping etc.)
 
-Use machine learning to recognize daily location patterns of the kids. Constrict an area on the map (called a *safe zone*) and when the child goes outside that, send an alert to the parent.
+
 
 Promising research: [ML Algorithm for Location Prediction](https://www.researchgate.net/publication/225104305_An_Adaptive_Machine_Learning_Algorithm_for_Location_Prediction)
 
