@@ -18,10 +18,13 @@ Education
 ---------
 
 2020-2020
-:   **Certificate in Big Data for Business**; Concordia University (Montreal)
+:   
+ Concordia University, 1616 Saint-Catherine St W, Montreal QC | (Jan 2020 - Dec)
+ **Certificate in Big Data for Business** | Concordia Continuing Education (CCE) | Part - Time
+
 
 2015-2017
-:   **AEC in Computer Science Techniques**; Cégep de la Gaspésie et des Îles (Montreal)
+:   **AEC in Computer Science Techniques**; Cégep de la Gaspésie et des Îles
 
 Skills
 ---------
