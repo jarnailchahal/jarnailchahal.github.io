@@ -18,10 +18,7 @@ Education
 ---------
 
 2020-2020
-:   
- Concordia University, 1616 Saint-Catherine St W, Montreal QC | (Jan 2020 - Dec)
- **Certificate in Big Data for Business** | Concordia Continuing Education (CCE) | Part - Time
-
+:   **Certificate in Big Data for Business**; Concordia University
 
 2015-2017
 :   **AEC in Computer Science Techniques**; Cégep de la Gaspésie et des Îles
