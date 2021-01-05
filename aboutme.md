@@ -20,8 +20,6 @@ Education
 2020-2020
 :   **Certificate in Big Data for Business**; Concordia University (Montreal)
 
-    *Big Data and Machine Learning basics*
-
 2015-2017
 :   **AEC in Computer Science Techniques**; Cégep de la Gaspésie et des Îles (Montreal)
 
