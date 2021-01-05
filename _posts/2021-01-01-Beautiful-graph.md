@@ -14,7 +14,7 @@ The below graph shows total number of help-desk tickets received and processed b
 
 Although this graph has the necessary data, it lacks  very important points to clarify our objective. The reader does not understand what the graph is trying to communicate. A good graph is one that lets its readers know in a single glance what exactly is the being communicated.
 
-After organizing and modifying parts of the above graph, we should get something close to the below example. The below graph uses the same data as the one above.
+After organizing and modifying parts of the above graph, we should get something similar to the below example. The below graph uses the same data as the one above.
 
 ![GoodGraph](https://raw.githubusercontent.com/jarnailchahal/home/master/_site/assets/img/goodgraph.png)*Good Graph*
 

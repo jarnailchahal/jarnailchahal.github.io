@@ -17,8 +17,8 @@ Work Experience
 Education
 ---------
 
-2020-2021 (expected)
-:   **Diploma in Big Data**; Concordia University (Montreal)
+2020-2020
+:   **Certificate in Big Data for Business**; Concordia University (Montreal)
 
     *Big Data and Machine Learning basics*
 
